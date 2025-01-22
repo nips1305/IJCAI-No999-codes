@@ -1,0 +1,116 @@
+common:
+  seed: 114514
+  gpu: '0'
+  runs: 10
+
+acm:
+  layers: [512, 256, 128]
+  acts: ['relu']
+  learning_rate: 0.0002
+  pretrain_learning_rate: 0.0001
+  lamSC: -12
+  coeff_reg: 0.000001
+  max_epoch: 50
+  max_iter: 4
+  pre_iter: 10
+
+wiki:
+  layers: [512, 256, 128]
+  acts: ['relu']
+  learning_rate: 0.0002
+  pretrain_learning_rate: 0.0001
+  lamSC: -10
+  coeff_reg: 0.000001
+  max_epoch: 50
+  max_iter: 4
+  pre_iter: 10
+
+citeseer:
+  layers: [512, 256, 128]
+  acts: ['relu']
+  learning_rate: 0.0001
+  pretrain_learning_rate: 0.0001
+  lamSC: -12
+  coeff_reg: 0.0005
+  max_epoch: 50
+  max_iter: 4
+  pre_iter: 10
+
+dblp:
+  layers: [512, 256, 128]
+  acts: ['relu']
+  learning_rate: 0.0004
+  pretrain_learning_rate: 0.0001
+  lamSC: -10
+  coeff_reg: 0.00001
+  max_epoch: 50
+  max_iter: 4
+  pre_iter: 10
+
+film:
+  layers: [512, 256, 128]
+  acts: ['relu']
+  learning_rate: 0.0004
+  pretrain_learning_rate: 0.0001
+  lamSC: -10
+  coeff_reg: 0.0005
+  max_epoch: 50
+  max_iter: 4
+  pre_iter: 10
+
+cornell:
+  layers: [512, 256, 128]
+  acts: ['relu']
+  learning_rate: 0.0004
+  pretrain_learning_rate: 0.0001
+  lamSC: -10
+  coeff_reg: 0.0001
+  max_epoch: 50
+  max_iter: 4
+  pre_iter: 10
+
+cora:
+  layers: [512, 256, 128]
+  acts: ['relu']
+  learning_rate: 0.0004
+  pretrain_learning_rate: 0.0001
+  lamSC: -10
+  coeff_reg: 0.00001
+  max_epoch: 50
+  max_iter: 4
+  pre_iter: 10
+
+wisc:
+  layers: [512, 256, 128]
+  acts: ['relu']
+  learning_rate: 0.0004
+  pretrain_learning_rate: 0.0001
+  lamSC: -10
+  coeff_reg: 0.0005
+  max_epoch: 50
+  max_iter: 4
+  pre_iter: 10
+
+uat:
+  layers: [512, 256, 128]
+  acts: ['relu']
+  learning_rate: 0.0004
+  pretrain_learning_rate: 0.0001
+  lamSC:  -30 # -30
+  coeff_reg: 0.0002
+  max_epoch: 50
+  max_iter: 4
+  pre_iter: 10
+
+amap:
+  layers: [512, 256, 128]
+  acts: ['relu']
+  learning_rate: 0.0002
+  pretrain_learning_rate: 0.0001
+  lamSC: -10000
+  coeff_reg: 0.000001
+  max_epoch: 50
+  max_iter: 4
+  pre_iter: 10
+
+
